@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{rIWL:function(t,n,o){"use strict";o.d(n,"a",(function(){return e}));var r=o("AytR"),c=o("fXoL"),a=o("tk/3");let e=(()=>{class t{constructor(t){this.http=t,this.url=r.a.ENDPOINT}}return t.\u0275fac=function(n){return new(n||t)(c.Vb(a.a))},t.\u0275prov=c.Ib({token:t,factory:t.\u0275fac,providedIn:"root"}),t})()}}]);

@@ -1,0 +1,45 @@
+//  @import "./sass/sidenav.scss";
+//  @import "./sass/header.scss";
+// @import "./sass/auth.scss";
+// @import "./sass/main-content.scss";
+// @import "./sass/home.scss";
+// @import "./sass/friendsList.scss";
+// @import './sass/colors.scss';
+// @import './sass/mediaQuery.scss';
+// @import './sass/timeline.scss';
+$background:#f0f2f5;
+body,
+html {
+  height: 100%;
+}
+body {
+  padding: 0px;
+  outline: none !important;
+  margin: 0px;
+  overflow-x: hidden;
+  font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial,
+    Lucida Grande, sans-serif ;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px $background;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:$background;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #bdbaba;
+}
+

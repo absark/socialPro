@@ -1,0 +1,71 @@
+// new task
+$color-primary:#363131;
+
+.m-container{
+ overflow: hidden;
+ 
+  .header{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    top: 0px;
+    right: 0px;
+    padding-right: 20px;
+    left: 0px;
+    height: 70px;
+    width: 100%;
+    background:$color-primary ;
+    .brand_name {
+        font-size: 1.5rem;
+        font-weight:  400;
+        letter-spacing: 1.5px;
+        padding: 8px 10px;
+        text-align: center;
+        color: #f35626;
+        background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: hue 6s infinite linear;
+    }
+    .spacer{
+        flex: 1 1 auto;
+    }
+    .navigation{
+        color:white; 
+        justify-content: end;
+        div{
+            outline: none;
+            cursor: pointer;
+           padding: 10px 20px;
+           color: #f35626;
+        background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: hue 10s infinite linear;
+        
+
+        }
+    }
+}
+.main-content{
+    background: rgb(226, 219, 219);
+    top: 70px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    overflow-y: auto;
+    z-index: 123;
+}
+@-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+      
+    }
+    to {
+      -webkit-filter: hue-rotate(-360deg);
+    }
+  }
+  
+}

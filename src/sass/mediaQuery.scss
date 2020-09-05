@@ -1,0 +1,31 @@
+
+
+@media (max-width: 968px) {
+    .sidenav {
+      left: -240px;
+    }
+    .main-content {
+      margin-left: 0px;
+    }
+    .toggle.sidenav{
+        left: 0px ;
+    }
+    .menu{
+        display: block !important;
+    }
+   
+    }
+  
+  @media (max-width: 768px) {
+    .friends{
+      right: -260px;
+    }
+    .main-content {
+      right: 0px;
+      padding: 0px;
+    }
+    .post_container{
+        padding-left: 8px;
+    }
+  }
+ 

@@ -1,0 +1,61 @@
+@import './colors.scss';
+.post_container{
+    position: relative;
+    width: 100%;
+    .posts{
+       flex: 1 1 auto;
+
+    }
+    .profile{
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .active{
+            border-bottom:2px solid $primary;
+            color:$primary;
+        }
+        .background_img{
+            height: 300px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+
+        }
+        .profile_img{
+            width: 150px;
+            height: 150px;
+            background-size: cover;
+            background-position: center;
+            display: inline-block;
+            border-radius: 50%;
+            border: 3px solid $white;
+            position: absolute;
+            top: 180px;
+            
+
+        }
+        .user_name{
+            justify-content: center;
+            margin-top: 30px;
+            font-size: 25px;
+            font-weight: 800;
+        }
+        @media(max-width:468px){
+            .background_img{
+                height: 200px;
+            }
+            .profile_img{
+                top: 80px;
+            }
+        }
+        
+    }
+   .tabs{
+       flex:1 1 auto;
+       justify-content:space-around;
+       div{outline:none}
+   }
+}
+
